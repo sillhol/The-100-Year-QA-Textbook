@@ -2531,4 +2531,5 @@ Non-authoritative answer:
     текстовая строка) \# 13 Тест 1 тест тест тест ![Стек
     TCP/IP](resources/tcp_ip_12_1.png) 2 тест тест тест \# 13 Тест 1
     тест тест тест ![Стек TCP/IP](resources/tcp_ip_12_1.png) 2 тест тест
-    тест
+    тест \# 13 Тест 1 тест тест тест ![Стек
+    TCP/IP](resources/tcp_ip_12_1.png) 2 тест тест тест
