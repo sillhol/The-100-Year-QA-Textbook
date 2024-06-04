@@ -324,3 +324,4 @@ systemctl restart название_службы
 ```journalctl -f -u service_name``` - наподобие команды ```tail -f``` 
 ### Просмотр событий от нескольких служб одновременно
 ```journalctl -u service_name_1 -u service_name_2 ...``` - Эту функцию можно сочетать с другими опциями, например -f
+

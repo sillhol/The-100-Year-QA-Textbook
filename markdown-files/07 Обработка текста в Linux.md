@@ -94,3 +94,4 @@ egrep user < /etc/group
 + Если вы хотите работать через пайпы с stderr, можно использовать конструкцию ниже. Она объединяет stdout и stderr для "next_command": ```some_command 2>&1 | next_command ```
 ![pipes](resources/X-пайпы2.png)
 + ```some_command 2>&1 >/dev/null | next_command``` - будет игнорировать stdout команды some_command, перенаправлять ее stderr в stdout и предоставлять его в качестве входных данных для "next_command". Используйте конструкцию, если вы хотите работать только с stderr и полностью игнорировать stdout
+
