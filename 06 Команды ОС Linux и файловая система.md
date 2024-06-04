@@ -69,7 +69,7 @@
   + ```mv folderA/*.log folderB/```	-	перемещает все файлы с расширением .log из директории folderA в директорию folderB.
 + ```stat```	-	используется для вывода информации о файле или файловой системе. Эта команда показывает различные атрибуты файла, такие как права доступа, время последнего доступа, изменения и модификации, а также номер inode и другие метаданные
   + ```stat /tmp```
-+ ```grep```	-	используется для поиска строк в текстовых файлах или стандартном вводе, которые соответствуют заданному шаблону. Поиск осуществляется либо имходя из Basic Regular Expressions (```grep "pattern" filename.txt``) либо Extended Regular Expressions (```grep -E "regex_pattern" filename.txt```):
++ ```grep```	-	используется для поиска строк в текстовых файлах или стандартном вводе, которые соответствуют заданному шаблону. Поиск осуществляется либо имходя из Basic Regular Expressions (```grep "pattern" filename.txt```) либо Extended Regular Expressions (```grep -E "regex_pattern" filename.txt```):
   + ```grep "pattern" filename.txt``` -	найдет все строки в файле filename.txt, содержащие подстроку pattern.
   + ```grep -E "regex_pattern" filename.txt```	-	выполнит поиск в файле filename.txt, используя расширенные регулярные выражения
   + ```grep "pattern" file1.txt file2.txt```	-	выполнит поиск подстроки pattern в файлах file1.txt и file2.txt.
