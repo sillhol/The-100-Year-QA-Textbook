@@ -594,4 +594,4 @@ Newman - это инструмент командной строки для за
 4. Если дополнительно установить newman-reporter-htmlextra — расширения для инструмента командной строки Newman, - то будут предоставлены дополнительные функции и улучшения в сравнении с стандартным HTML-репортером (красиво оформленные интерактивные HTML-отчеты о выполнении коллекций тестов, предоставляется дополнительная информация о запросах и ответах, включая тела запросов и ответов, HTTP-статусы, времена выполнения и прочие метрики): ```newman run C:\Users\ISV\Desktop\dummyapi.io.postman_collection.json --reporters htmlextra --reporter-htmlextra-export "C:\Users\ISV\Documents"```
 
 !!! Внимание, в примерах 1 и 7 
-[МИНИ-КУРС POSTMAN (API TESTING) от Alex QA]([https://](https://www.youtube.com/playlist?list=PLfFgJJ14Z4ZGX5ZCTqR75iLehomRfrO2e))
+[МИНИ-КУРС POSTMAN (API TESTING) от Alex QA](https://www.youtube.com/playlist?list=PLfFgJJ14Z4ZGX5ZCTqR75iLehomRfrO2e)
