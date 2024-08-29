@@ -595,3 +595,4 @@ Newman - это инструмент командной строки для за
 
 !!! Внимание, в примерах 1 и 7 
 [МИНИ-КУРС POSTMAN (API TESTING) от Alex QA](https://www.youtube.com/playlist?list=PLfFgJJ14Z4ZGX5ZCTqR75iLehomRfrO2e)
+
