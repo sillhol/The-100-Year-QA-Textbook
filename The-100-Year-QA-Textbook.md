@@ -4882,7 +4882,10 @@ boat-mysql-1     | 2023-11-29T13:02:25.839037Z 9 [Note] Access denied for user '
 		</tr>
 		<tr>
 			<td><code>iptables -vnL</code></td>
-			<td>выводит подробный список всех правил фильтрации пакетов (<code>DROP/REJECT</code>) в текущей таблице	(обычно это таблица <code>filter</code>)</td>
+			<td>выводит подробный список всех правил фильтрации пакетов (<code>DROP/REJECT</code>) в текущей таблице (обычно это таблица <code>filter</code>):</BR>
+			<code>-v</code>: Показать подробную информацию (verbose).</BR>
+			<code>-n</code>: Использовать числовой формат (не резолвить имена хостов).</BR>
+			<code>-L</code>: Список всех правил (list).</td>
 		</tr>
 	</tbody>
 </table>
