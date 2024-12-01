@@ -1273,9 +1273,9 @@ grub-common.service                         masked
 ## Journalctl: вывод журналов служб systemd
 `journalctl` — это инструмент для управления журналами служб systemd.
 
-Для выполнения этой команды необходимы права `root` или включение в группу `systemd-journal`.
+Для выполнения этой команды необходимы права `root` или включение в группу `systemd-journal`: `sudo usermod -aG systemd-journal user_name`.
 ### Просмотр всех записанных в журнал событий для службы (по имени)
-`journalctl -u service_name` (`journalctl  -e -u service_name` - то же, но с переходом к последним строкам журнала)
+`journalctl -u service_name` (`journalctl  -eu service_name` - то же, но с переходом к последним строкам журнала)
 ### Отслеживание событий службы в реальном времени и вывод их на терминал
 `journalctl -f -u service_name` - наподобие команды `tail -f` 
 ### Просмотр событий от нескольких служб одновременно
